@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.wrapper01{padding-bottom:200px;background:#21b2a6;}
+.wrapper01>.inner>header{margin-bottom:150px;}
+.icons ul{height:inherit;width:100%;}
+.icons li{width:25%;margin-right:5%;position:relative;}
+.icons li:last-child{margin-right:0;}
+.icons li>span{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);}
+.icons li>span>span{font-size:2em;position:absolute;bottom:-40px;left:50%;transform:translate(-50%,-50%);}
+
+.icons img{width:100px;height:100px;position:absolute;top:47%;left:50%;transform:translate(-50%,-50%);}
+
+#two>h2{text-align:center;padding-top:25px;}
+#two img{width:45%;height:45%;margin:0 auto;}
