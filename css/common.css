@@ -4,6 +4,7 @@
 #header{background:rgba(46,56,66,0.5);}
 #one_left{width:40%;float:left;}
 #one_left>div{float:left;}
+#one_left::after{content:"";width:1px;height:100px;background:white;}
 /* #one_left>div:nth-of-type(1){width:30%;}
 #one_left>div:nth-of-type(2){width:70%;}
 #one_left img{width:70%;border-radius:50%;}
@@ -24,6 +25,12 @@
 .icons img{width:100px;height:100px;position:absolute;top:47%;left:50%;transform:translate(-50%,-50%);}
 
 #two>h2{text-align:center;padding-top:25px;}
+.spotlight .content {padding: 2em 0em 0.1em;}
+#two .content div{float:left;width:50%;}
+#two .content div:last-child{margin-right:0;}
 #two img{width:45%;height:45%;margin:0 auto;}
+#two .left_text{text-align:left;}
+#two .right_text{text-align:right;}
+#two .mar_rig{text-align:left;}
 
 #footer .icons li{margin-right:0px;width:5%;}
