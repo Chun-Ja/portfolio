@@ -1,5 +1,18 @@
 @charset "utf-8";
 
+
+#header{background:rgba(46,56,66,0.5);}
+#one_left{width:40%;float:left;}
+#one_left>div{float:left;}
+/* #one_left>div:nth-of-type(1){width:30%;}
+#one_left>div:nth-of-type(2){width:70%;}
+#one_left img{width:70%;border-radius:50%;}
+ */#one_left li{list-style:none;text-align:left;margin-bottom:15px;}
+
+#one_right{width:45%;float:right;}
+#one_right p{text-align:left;}
+
+.wrapper01{clear:both;}
 .wrapper01{padding-bottom:200px;background:#21b2a6;}
 .wrapper01>.inner>header{margin-bottom:150px;}
 .icons ul{height:inherit;width:100%;}
@@ -12,3 +25,5 @@
 
 #two>h2{text-align:center;padding-top:25px;}
 #two img{width:45%;height:45%;margin:0 auto;}
+
+#footer .icons li{margin-right:0px;width:5%;}

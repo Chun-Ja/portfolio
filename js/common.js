@@ -5,10 +5,7 @@ $(function(){
         //your configuration goes here
         size:200,
         lineWidth:20,
-         
       });
-    }else{
-      $(".chart").reset();
     }
   });
 });

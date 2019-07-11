@@ -62,7 +62,7 @@
 				resetForms: true,
 				side: 'right',
 				target: $body,
-				visibleClass: 'is-menu-visible'
+				visibleClass: 'is-menu-visible',
 			});
 
 	// Header.
